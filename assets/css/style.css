@@ -331,10 +331,8 @@ fieldset {
 
 .nav-toggle {
     position: absolute;
-    right: 15px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+    right: 0px;
+   
 }
 
 .toggle-btn {
@@ -342,6 +340,7 @@ fieldset {
     border: 0 none;
     padding: 10px;
     outline: none;
+    border-radius: 3px;;
 }
 
 .toggle-btn .icon-bar {
@@ -751,7 +750,9 @@ a.read-more:hover {
     margin-right: 0 !important;
 }
 
-
+.phemail {
+    color: #fff; font-weight: 600; display: flex; align-items: center; justify-content: center;
+}
 
 .available-work-area:after {
     position: absolute;

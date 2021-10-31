@@ -64,6 +64,27 @@ Version      : 1.0
     .spacer .spacer {
         padding: 0;
     }
+    .phemail {
+       flex-direction: column;
+    }
+    .footer-area {
+        padding: 40px 0px;
+   
+    }
+
+    .navbar-collapse {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 40px;
+
+    }
+
+    .heading {
+        font-size: 20px;
+        color: var(--heading-color);
+    }
+
 
     .available-work-area {
         padding: 100px 0px !important;
