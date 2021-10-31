@@ -43,6 +43,36 @@ Version      : 1.0
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+
+    .frow {
+        flex-direction: column !important;
+    }
+
+    .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+        font-size: 14px;
+    }
+    .vr-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero-image {
+        --size: 250px;
+        margin-bottom: 20px;
+      
+    }
+    .spacer .spacer {
+        padding: 0;
+    }
+
+    .available-work-area {
+        padding: 100px 0px !important;
+       
+    }
+
+    .welcome-area {
+        height: initial;
+    }
     .site-header .navbar-collapse {
         opacity: 1;
         visibility: visible;
@@ -75,7 +105,8 @@ Version      : 1.0
     }
     .welcome-image-area,
     .welcome-video-area {
-        padding-top: 120px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
     .welcome-image-area h2,
     .single-slide-item h2,

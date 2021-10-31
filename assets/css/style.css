@@ -747,10 +747,15 @@ a.read-more:hover {
     padding: 150px 0px;
     background-attachment: fixed;
 }
+.navbar-toggle {
+    margin-right: 0 !important;
+}
+
+
 
 .available-work-area:after {
     position: absolute;
-    background: rgba(0, 0, 0, .8);
+    background: rgba(0, 0, 0, .4);
     left: 0;
     top: 0;
     width: 100%;
@@ -1408,4 +1413,3 @@ padding-left: 48px;
     margin-left: 36px
 
 }
-
