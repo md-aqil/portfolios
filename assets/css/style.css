@@ -3,7 +3,6 @@ body {
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    letter-spacing: 1px;
     height: 100%;
     font-family: 'Poppins', sans-serif;
     color: #232323;
@@ -336,6 +335,17 @@ fieldset {
 
     margin-top: 15px;
 
+}
+
+
+
+.link {
+    color: #00c310;
+    text-decoration: underline;
+}
+.link:hover {
+    color: #00c310;
+    text-decoration: underline;
 }
 .btn-black:hover ,.btn-black:focus{
     color: #fff;
@@ -766,7 +776,7 @@ a.read-more:hover {
 
 .available-work-area {
     position: relative;
-    background: url(../images/holy.jpg);
+    background: url(../images/phone.jpg);
     background-size: cover;
     z-index: 1;
     padding: 150px 0px;
@@ -901,7 +911,7 @@ a.read-more:hover {
 
 .footer-area {
     background: #0C0B0B;
-    padding: 80px 0px;
+    padding: 40px 0px;
 }
 
 .footer-area p {
@@ -1051,6 +1061,14 @@ border-radius: 50%;
 padding-top: 50px;
 padding-bottom: 50px;
 }
+.spacer-top {
+    padding-top: 50px;
+   
+    }
+    .spacer-bottom {
+       
+        padding-bottom: 50px;
+        }
 .header-area {
 position: relative;
 }
@@ -1088,13 +1106,13 @@ color: var(--gradient-2);
 }
 .timeline-list > li::before{
 content: '';
-width: 20px;
-height: 20px;
+width: 15px;
+height: 15px;
 display: block;
 background: var(--dark-color);
 border-radius: 50%;
 position: absolute;
-left: -30px;
+left: -28px;
 margin-top: 5px;
 z-index: 1;
 -webkit-print-color-adjust: exact; 
@@ -1325,11 +1343,11 @@ font-size: 18px;
 .simple-list li{
 font-family: var(--paragraph-font);
 font-weight: normal;
-font-size: 17px;
+font-size: 16px;
 line-height: 1.5;
 text-align: left;
 color: var(--paragraph-color);
-padding: 7px 0;
+padding: 10px 0;
 list-style: square;
 }
 .blog-list {
@@ -1392,12 +1410,11 @@ padding-left: 48px;
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
     padding: 22px 8px;
-
-    line-height: 1.42857143;
+    line-height: 1.5;
     vertical-align: top;
     border-top: 1px solid #ddd;
-
     font-size: 18px;
+    letter-spacing: initial;
     
 }
 
@@ -1439,4 +1456,13 @@ padding-left: 48px;
 
     margin-left: 36px
 
+}
+.ed-time {
+    padding-right: 170px;
+}
+
+
+.timeline-list.tm-lm >li, .big-list> li {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }

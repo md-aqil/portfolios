@@ -46,7 +46,9 @@ Version      : 1.0
     .site-header.active .navbar-collapse {
         display: block !important;
     }
-
+    .ed-time {
+        padding-right: 0px;
+    }
     .frow {
         flex-direction: column !important;
     }
